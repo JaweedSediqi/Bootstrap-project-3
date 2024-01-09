@@ -1,0 +1,10 @@
+.nav-link{
+    margin-left: 30px;
+    color: aliceblue !important;
+}
+.nav-link:hover,.active{
+    background-image: linear-gradient(rgb(73, 199, 233),rgb(0, 13, 198));
+}
+.page-link.active{
+    color: aliceblue;
+}

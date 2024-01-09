@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="New.css">
+</head>
+
+<body>
+
+    <!-- -----------------------------nav-------------------------------------- -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Ninth navbar example">
+        <div class="container-xl">
+            <a class="navbar-brand" href="#">King Jaweed Sediqi Web</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07XL"
+                aria-controls="navbarsExample07XL" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExample07XL">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Dashward</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="Posts.html">Pots</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="Catagories.html">Catagories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="Users.html">Users</a>
+                    </li>
+
+                    <li class="nav-item dropdown" style="float: right;">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                            aria-expanded="false">Welcome Brand</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="profile.html">Profile</a></li>
+                            <li><a class="dropdown-item" href="settings.html">Settings</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="logout.html">Log out</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav> <!-- -----------------------------nav------------------------------------- -->
+
+
+    <!-- ---------------------------------section  1----------------------- -->
+    <section id="main-header" class="py-2 bg-primary text-white ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>Profile</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ---------------------------------section  1----------------------- -->
+    <section class="py-3 my-3" id="action">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="index.html"  class="btn btn-secondary">Back to Dashword</a>
+                </div>
+                <div class="col-md-3 my-1">
+                    <a href="index.html" class="btn btn-warning">Change paswoed</a>
+                </div>
+                <div class="col-md-3">
+                    <a href="index.html" class="btn btn-danger">Delet -- Account</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ---------------------------------section  1----------------------- -->
+
+    <section id="pots">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4>Edite profile</h4>
+                        </div>
+                        <div class="card-block">
+                            <label for="Title">Name</label>
+                            <input type="text" class="form-control">
+            
+                            <label for="Title">Email</label>
+                            <input type="text" class="form-control">
+            
+                            <label for="Title">TextErea</label>
+                            <textarea style="resize: none;" name="" id="" cols="30" rows="10" class="form-control">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate aliquam eos beatae voluptatibus ipsa officiis recusandae omnis. Eos fugit maxime quod minima? Et officia assumenda enim esse aspernatur distinctio libero.</textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h1 class="text-center mb-3">Your imgage</h1>
+                    <img src="200018200347_1845.jpg" class="img-fluid" >
+
+                    <a href=""  class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#pppp">Edit image</a>
+                    <div class="modal fade" data-bs-backdrop="static" id="pppp">
+                      <div class="modal-dialog ">
+                        <div class="modal-content">
+                          <div class="modal-header bg-primary text-white">Add User</div>
+                          <div class="modal-body">
+            
+                            <label for="Title">Email</label>
+                            <input type="text" class="form-control">
+            
+                            <label for="Title">Pasword</label>
+                            <input type="password" class="form-control">
+            
+                            <label for="Title">  confiure Your Pasword</label>
+                            <input type="password" class="form-control">
+            
+              
+                          </div>
+                          <div class="modal-footer">
+                            <button class="btn border" data-bs-dismiss="modal">close</button>
+                            <button class="btn btn-primary">Edit pasword</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="btn btn-danger">Delet pasword</button>
+        
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- ---------------------------------section  1----------------------- -->
+    <section class="py-5 my-5 bg-dark text-light text-center">
+        <h5>Hetat-afg</h5>
+        <p>js</p>
+
+    </section>
+
+
+
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
